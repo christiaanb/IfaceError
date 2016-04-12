@@ -3,11 +3,11 @@
 
 module CLaSH.Core.Type where
 
-import           GHC.Generics                            (Generic)
-import           Unbound.Generics.LocallyNameless        (Alpha,Name)
-import           CLaSH.Core.TyCon
+import GHC.Generics                     (Generic)
+import Unbound.Generics.LocallyNameless (Alpha,Name)
+import CLaSH.Core.TyCon
 
 data Type = VarTy
   deriving (Show,Generic,Alpha)
 
-type TyName     = Name Type
+type TyName = Name Type
