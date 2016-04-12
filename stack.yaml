@@ -1,0 +1,21 @@
+flags: {}
+packages:
+- '.'
+extra-deps:
+- StateVar-1.1.0.3
+- base-orphans-0.5.4
+- bifunctors-5.3
+- comonad-5
+- contravariant-1.4
+- distributive-0.5.0.2
+- hashable-1.2.4.0
+- mtl-2.2.1
+- profunctors-5.2
+- semigroups-0.18.1
+- stm-2.4.4.1
+- tagged-0.8.3
+- text-1.2.2.1
+- transformers-compat-0.5.1.4
+- unbound-generics-0.3
+- void-0.7.1
+resolver: ghc-8.0.0.20160411
