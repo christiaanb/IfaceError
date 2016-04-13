@@ -1,5 +1,5 @@
-{-# LANGUAGE DeriveAnyClass        #-}
-{-# LANGUAGE DeriveGeneric         #-}
+{-# LANGUAGE DeriveAnyClass #-}
+{-# LANGUAGE DeriveGeneric  #-}
 
 module CLaSH.Core.Type where
 
@@ -8,6 +8,6 @@ import Unbound.Generics.LocallyNameless (Alpha,Name)
 import CLaSH.Core.TyCon
 
 data Type = VarTy
-  deriving (Show,Generic,Alpha)
+  deriving (Generic,Alpha)
 
 type TyName = Name Type

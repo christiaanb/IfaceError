@@ -1,5 +1,5 @@
-{-# LANGUAGE DeriveAnyClass        #-}
-{-# LANGUAGE DeriveGeneric         #-}
+{-# LANGUAGE DeriveAnyClass #-}
+{-# LANGUAGE DeriveGeneric  #-}
 
 {-# OPTIONS_GHC -ddump-if-trace #-}
 
@@ -12,4 +12,4 @@ import {-# SOURCE #-} CLaSH.Core.Type   (TyName)
 
 data AlgTyConRhs
   = NewTyCon TyName
-  deriving (Show,Generic,Alpha)
+  deriving (Generic,Alpha)
