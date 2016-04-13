@@ -8,4 +8,4 @@ data Type = VarTy
 type TyName = Name Type
 
 instance Alpha Type where
-  isTerm Type = False
+  isTerm VarTy = False
