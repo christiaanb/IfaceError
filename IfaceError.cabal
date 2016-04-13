@@ -10,6 +10,5 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     Unbound.Generics.LocallyNameless, CLaSH.Core.TyCon, CLaSH.Core.Type
-  other-extensions:    DeriveGeneric, DefaultSignatures, FlexibleContexts, TypeOperators, DeriveAnyClass
   build-depends:       base >=4.9 && <4.10
   default-language:    Haskell2010
